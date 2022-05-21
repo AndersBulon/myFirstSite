@@ -1,0 +1,30 @@
+body,
+html {
+	min-height: 100%;
+}
+
+body {
+	color: #814848;
+	background: #b7e4ec;
+}
+
+.text {
+	margin: 0 auto;
+	color: #121cad;
+	border: 1px solid #ad1212;
+	padding: 20px;
+	text-align: center;
+	background-color: #331f2d;
+	font-size: 30px;
+	width: 500px;
+	height: 200px;
+	& span {
+		color: #f190d4;
+	}
+}
+
+h1 {
+	font-size: 50px;
+	color: #ad1212;
+	background-color: #52916a;
+}
